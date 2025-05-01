@@ -3,8 +3,7 @@
 import axios from "axios";
 
 const generateNews = async (formData, setNewsOutput) => {
-  const apiKey =
-    "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";
+  const apiKey = "YOUR_OPENAI_API_KEY";
 
   const prompt = `
     Gumawa ng isang pormal na artikulo para sa "Church News" ng Iglesia Ni Cristo gamit ang sumusunod na detalye.  
