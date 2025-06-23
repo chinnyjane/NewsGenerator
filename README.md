@@ -67,12 +67,12 @@ Open in your browser: [http://localhost:3000](http://localhost:3000)
 
 ## 🛡️ Disclaimer
 
-This project is unofficial and is **not affiliated with the Iglesia Ni Cristo organization**.  
+This project is unofficial and is **not affiliated with any church**.  
 It is intended as a tool to assist in generating Church-related news articles.
 
 ## 🤝 Contributors
 
-- **Developer:** [Your Name](https://github.com/your-username)
+- **Developer:** [Chinny Jane](https://github.com/chinnyjane)
 
 ---
 
@@ -82,17 +82,3 @@ MIT License
 
 ```
 
----
-
-### ✅ Next Steps for you:
-
-- Replace:
-  - `your-username` → your GitHub username
-  - `your_openai_api_key_here` → your real API key
-- Later, add **screenshots** to make it more complete
-
----
-
-If you want, I can also **add Deployment Guide (Vercel / Netlify)** in the README.
-Would you like me to include that? 🚀
-```
