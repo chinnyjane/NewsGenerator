@@ -6,7 +6,7 @@ const generateNews = async (formData, setNewsOutput) => {
   const apiKey = "YOUR_OPENAI_API_KEY";
 
   const prompt = `
-    Gumawa ng isang pormal na artikulo para sa "Church News" ng Iglesia Ni Cristo gamit ang sumusunod na detalye.  
+    Gumawa ng isang pormal na artikulo para sa "Church News"  gamit ang sumusunod na detalye.  
     Isulat ito sa wikang Filipino.
 
     Pangalan ng Gawain: ${formData.eventName}
@@ -18,7 +18,7 @@ const generateNews = async (formData, setNewsOutput) => {
     Ilagay ang Extro Script
     "Mula po dito sa " ${formData.venue}
     "Ako po si Kapatid na " ${formData.reporterName}
-    "Para sa Iglesia ni Cristo News Network"
+    "Para sa News Network"
 
     Isara ang artikulo sa pamamagitan ng pagbibigay ng kredito sa:
     - Tagapag-ulat: ${formData.reporterName}
